@@ -1,6 +1,6 @@
 {
   "name": "motorcortex-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Command Line tools for MotorCortex",
   "bin": {
     "motorcortex": "src/mccli.js"
@@ -21,6 +21,5 @@
     "@caporal/core": "2.0.2",
     "nodegit": "0.27.0",
     "rimraf": "3.0.2"
-  },
-  "type": "module"
+  }
 }
