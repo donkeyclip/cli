@@ -1,0 +1,25 @@
+{
+  "name": "motorcortex-clip",
+  "version": "0.0.1",
+  "description": "Command Line tools for MotorCortex",
+  "bin": {
+    "mccli": "src/mccli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kissmybutton/motorcortex-cli"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {},
+  "keywords": [
+    "motorcortex"
+  ],
+  "dependencies": {
+    "@caporal/core": "2.0.2",
+    "nodegit": "0.27.0"
+  },
+  "type": "module"
+}
