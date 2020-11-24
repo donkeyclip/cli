@@ -14,7 +14,7 @@ const cloneOptions = {
   }
 }
 program
-  .command('newPlugin')
+  .command('newplugin')
   .argument("<name>", "Name of your plugin")
   .action(({ logger, args, options }) => {
     Git.Clone(pluginStarterRepo, args.name, cloneOptions).then(function(repository) {

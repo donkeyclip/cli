@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Command Line tools for MotorCortex",
   "bin": {
-    "mccli": "src/mccli.js"
+    "motorcortex": "src/mccli.js"
   },
   "repository": {
     "type": "git",
