@@ -21,7 +21,7 @@ program
       // remove git files
       rimraf(`.\\${args.name}\\.git`, ()=>{});
       rimraf(`.\\${args.name}\\.github`, ()=>{});
-      exec(`npm install --prefix ./${args.name}`, (error, stdout, stderr) => {
+      exec(`npm install --prefix .\\${args.name}`, (error, stdout, stderr) => {
           if (error) {
               console.log(`error: ${error.message}`);
               return;
