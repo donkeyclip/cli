@@ -19,8 +19,8 @@ program
   .action(({ logger, args, options }) => {
     Git.Clone(pluginStarterRepo, args.name, cloneOptions).then(function(repository) {
       // remove git files
-      rimraf(`./${args.name}/.git`, ()=>{});
-      rimraf(`./${args.name}/.github`, ()=>{});
+      rimraf(`.\\${args.name}\\.git`, ()=>{});
+      rimraf(`.\\${args.name}\\.github`, ()=>{});
       exec(`npm install --prefix ./${args.name}`, (error, stdout, stderr) => {
           if (error) {
               console.log(`error: ${error.message}`);
