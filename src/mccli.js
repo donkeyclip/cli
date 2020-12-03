@@ -33,7 +33,7 @@ program
                 rimraf(`./${args.name}/.github`, () => { });
             }
             const throbber = ora('Installing dependencies. This will take a while').start();
-            exec(`npm --prefix ${args.name} install ${args.name}`, (error, stdout, stderr) => {
+            exec(`npm install`, {cwd: args.name}, (error, stdout, stderr) => {
                 if (error) {
                     throbber.stop();
                     logger.error(error.message);
@@ -64,7 +64,7 @@ program
                 rimraf(`./${args.name}/.github`, () => { });
             }
             const throbber = ora('Installing dependencies. This will take a while').start();
-            exec(`npm --prefix ${args.name} install ${args.name}`, (error, stdout, stderr) => {
+            exec(`npm install`, {cwd: args.name}, (error, stdout, stderr) => {
                 if (error) {
                     throbber.stop();
                     logger.error(error.message);
