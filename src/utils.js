@@ -6,6 +6,7 @@ const rimraf = require("rimraf");
 const process = require('process');
 const { exec } = require("child_process");
 const ora = require('ora');
+const {v4: uuidv4} = require("uuid")
 
 function checkCommand(command) {
     return ["newplugin","newclip"].includes(command)
@@ -39,7 +40,7 @@ function cloneGitRepo(command, projectName) {
             rimraf(`./${projectName}/.github`, () => { });
         }
         const throbber = ora(MESSAGES.install).start();
-        exec(`npm run initialize`, {cwd: projectName}, (error, stdout, stderr) => {
+        exec(`npm install`, {cwd: projectName}, (error, stdout, stderr) => {
             if (error) {
                 throbber.stop();
                 console.error(error.message);
@@ -48,8 +49,16 @@ function cloneGitRepo(command, projectName) {
             if (stderr) {
                 //   console.warn(stderr);
             }
+            
             throbber.stop();
-            console.log(MESSAGES.finish(projectName));
+            const idjsContent = `export default "${uuidv4()}";`
+            fs.writeFile(`${projectName}/clip/id.js`, idjsContent, err => {
+                if (err) {
+                  console.error(err)
+                  return
+                }
+                console.log(MESSAGES.finish(projectName));
+              })
         });
     });
 }
