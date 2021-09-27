@@ -1,9 +1,9 @@
 {
   "name": "motorcortex-cli",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Command Line tools for MotorCortex",
   "bin": {
-    "motorcortex": "src/mccli.js"
+    "motorcortex": "src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,9 @@
     "motorcortex"
   ],
   "dependencies": {
-    "@caporal/core": "2.0.2",
     "nodegit": "0.27.0",
+    "ora": "5.1.0",
     "rimraf": "3.0.2",
-    "ora": "5.1.0"
+    "yargs": "^17.2.1"
   }
 }
