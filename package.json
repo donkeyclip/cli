@@ -1,6 +1,6 @@
 {
   "name": "donkeyclip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Command Line tools for MotorCortex",
   "main": "dist/bundle.cjs.js",
   "repository": {
