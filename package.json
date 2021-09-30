@@ -11,8 +11,9 @@
   "engines": {
     "node": ">=10"
   },
+  "bin": "./dist/bundle.cjs.js",
   "scripts": {
-    "build": "",
+    "build": "rollup -c",
     "build:lib": "rollup -c"
   },
   "keywords": [
