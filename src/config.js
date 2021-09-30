@@ -1,5 +1,5 @@
 const USAGE = `
-Usage: motorcortex-cli <command> <project-name>
+Usage: donkeyclip <command> <project-name>
 
 Available commands:
  - newplugin
@@ -11,8 +11,6 @@ Available commands:
     finish:(projectName)=>`Your project workspace is ready on folder "${projectName}". Be creative and have fun!`,
     folderExists: (projectName) => `Folder "${projectName}" already exists`,
     unexpectedError: "Unexpected error!"
-
-
 };
 
 const CLONE_OPTIONS = {
@@ -25,7 +23,6 @@ const CLONE_OPTIONS = {
 const STARTER_REPO = {
     newplugin:"https://github.com/donkeyclip/motorcortex-plugin-starter",
     newclip:"https://github.com/donkeyclip/motorcortex-clip-starter"
-    
 };
 
 module.exports = {
