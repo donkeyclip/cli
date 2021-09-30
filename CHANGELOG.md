@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://www.github.com/donkeyclip/motorcortex-cli/compare/v1.0.0...v1.0.1) (2021-09-30)
+
+
+### Bug Fixes
+
+* add build script and fix dependencies ([9038871](https://www.github.com/donkeyclip/motorcortex-cli/commit/9038871756d4daa5242c1879a302f681dde7b631))
+
 ## 1.0.0 (2021-09-29)
 
 
