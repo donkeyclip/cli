@@ -62,6 +62,7 @@ function cloneGitRepo(command, projectName) {
         });
     });
 }
+
 module.exports = {
     checkCommand,
     checkName,
