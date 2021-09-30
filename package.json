@@ -1,11 +1,11 @@
 {
-  "name": "@donkeyclip/motorcortex-cli",
+  "name": "donkeyclip",
   "version": "1.0.1",
   "description": "Command Line tools for MotorCortex",
   "main": "dist/bundle.cjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/donkeyclip/motorcortex-cli"
+    "url": "https://github.com/donkeyclip/cli"
   },
   "license": "MIT",
   "engines": {
@@ -17,8 +17,11 @@
   },
   "keywords": [
     "motorcortex",
-    "motorcortex-cli",
-    "cli"
+    "donkeyclip-cli",
+    "donkeyclip",
+    "cli",
+    "code",
+    "code-donkeyclip"
   ],
   "dependencies": {
     "nodegit": "0.27.0",
