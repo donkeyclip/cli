@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.3](https://www.github.com/donkeyclip/cli/compare/v1.0.2...v1.0.3) (2021-09-30)
+
+
+### Miscellaneous Chores
+
+* release 1.0.3 ([552583c](https://www.github.com/donkeyclip/cli/commit/552583c7efb02320f1d19e85d0277205020fd823))
+
 ### [1.0.2](https://www.github.com/donkeyclip/cli/compare/v1.0.1...v1.0.2) (2021-09-30)
 
 
