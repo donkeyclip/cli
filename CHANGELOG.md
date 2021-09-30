@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.2](https://www.github.com/donkeyclip/cli/compare/v1.0.1...v1.0.2) (2021-09-30)
+
+
+### Bug Fixes
+
+* change name ([98993be](https://www.github.com/donkeyclip/cli/commit/98993bed8ed1638b95cf9fdd69cff423d808db51))
+
 ### [1.0.1](https://www.github.com/donkeyclip/motorcortex-cli/compare/v1.0.0...v1.0.1) (2021-09-30)
 
 
