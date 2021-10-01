@@ -13,7 +13,9 @@
   "bin": "./src/index.js",
   "scripts": {
     "build": "",
-    "build:lib": ""
+    "build:lib": "",
+    "test": "npm i && npm run donkeyclip -- newclip test",
+    "donkeyclip": "node ./src/index.js"
   },
   "keywords": [
     "motorcortex",
