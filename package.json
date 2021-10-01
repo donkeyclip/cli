@@ -2,7 +2,6 @@
   "name": "donkeyclip",
   "version": "1.0.3",
   "description": "Command Line tools for MotorCortex",
-  "main": "dist/bundle.cjs.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/donkeyclip/cli"
@@ -11,10 +10,10 @@
   "engines": {
     "node": ">=10"
   },
-  "bin": "./dist/bundle.cjs.js",
+  "bin": "./src/index.js",
   "scripts": {
-    "build": "rollup -c",
-    "build:lib": "rollup -c"
+    "build": "",
+    "build:lib": ""
   },
   "keywords": [
     "motorcortex",
