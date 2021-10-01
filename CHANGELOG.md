@@ -1,5 +1,17 @@
 # Changelog
 
+### [1.0.4](https://www.github.com/donkeyclip/cli/compare/v1.0.3...v1.0.4) (2021-10-01)
+
+
+### Bug Fixes
+
+* remove build to work with npx ([cc216af](https://www.github.com/donkeyclip/cli/commit/cc216af187b4ac95e062460c00264dbbfbb52169))
+
+
+### Miscellaneous Chores
+
+* release 1.0.4 ([0a5ad02](https://www.github.com/donkeyclip/cli/commit/0a5ad027efa9485217d6cc4f0c50b5ee991e6122))
+
 ### [1.0.3](https://www.github.com/donkeyclip/cli/compare/v1.0.2...v1.0.3) (2021-09-30)
 
 
