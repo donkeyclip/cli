@@ -1,5 +1,15 @@
 # Changelog
 
+### [1.0.5](https://www.github.com/donkeyclip/cli/compare/v1.0.4...v1.0.5) (2021-10-06)
+
+
+### Bug Fixes
+
+* add tests ([5ed5ee4](https://www.github.com/donkeyclip/cli/commit/5ed5ee40a32b6c7fee7a6c4202982b2ad43e6998))
+* **deps:** update dependency ora to v5.4.1 ([46b0624](https://www.github.com/donkeyclip/cli/commit/46b0624ea071fbf96b95f7747dec01bda89bb0a5))
+* **deps:** update dependency rollup to v2.57.0 ([5c5e51e](https://www.github.com/donkeyclip/cli/commit/5c5e51ea042260663ece19801172e60b945a6c42))
+* **deps:** update dependency rollup to v2.58.0 ([263fad0](https://www.github.com/donkeyclip/cli/commit/263fad04f0b1cac40e31cf55250574b11595299b))
+
 ### [1.0.4](https://www.github.com/donkeyclip/cli/compare/v1.0.3...v1.0.4) (2021-10-01)
 
 
