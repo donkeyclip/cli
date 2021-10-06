@@ -1,0 +1,12 @@
+{
+  "root": true,
+  "plugins": ["sonarjs", "prettier"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:promise/recommended",
+    "plugin:sonarjs/recommended",
+    "plugin:node/recommended",
+    "prettier",
+    "plugin:prettier/recommended"
+  ]
+}
