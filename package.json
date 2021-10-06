@@ -15,7 +15,8 @@
     "build": "",
     "build:lib": "",
     "test": "npm i && npm run donkeyclip -- newclip test",
-    "donkeyclip": "node ./src/index.js"
+    "donkeyclip": "node ./src/index.js",
+    "prepare": "husky install"
   },
   "keywords": [
     "motorcortex",
@@ -34,11 +35,33 @@
     "uuid": "^8.3.2",
     "yargs": "^17.2.1"
   },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "prettier --write",
+      "eslint --cache --fix"
+    ],
+    "*.{json,yaml,yml,md,html}": [
+      "prettier --write"
+    ]
+  },
   "devDependencies": {
     "@babel/core": "^7.15.5",
+    "@babel/eslint-parser": "^7.15.7",
     "@rollup/plugin-babel": "^5.3.0",
     "@rollup/plugin-commonjs": "20.0.0",
     "@rollup/plugin-json": "^4.1.0",
-    "@rollup/plugin-node-resolve": "^13.0.0"
+    "@rollup/plugin-node-resolve": "^13.0.0",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-sonarjs": "^0.10.0",
+    "husky": "^7.0.2",
+    "lint-staged": "^11.2.0",
+    "prettier": "^2.4.1"
   }
 }
