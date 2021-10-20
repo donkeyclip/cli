@@ -2,7 +2,7 @@
 node_modules
 dist
 test
-# demo/bundle.js
+demo/bundle.js
 
 # Coverage
 coverage
