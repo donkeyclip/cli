@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.6](https://www.github.com/donkeyclip/cli/compare/v1.0.5...v1.0.6) (2021-10-26)
+
+
+### Bug Fixes
+
+* add isomorphic-git and remove nodegit ([#30](https://www.github.com/donkeyclip/cli/issues/30)) ([c2b3549](https://www.github.com/donkeyclip/cli/commit/c2b3549b35b288951ec0d6526565faa1f8acda1d))
+* **deps:** pin dependency isomorphic-git to 1.10.1 ([93ff1d2](https://www.github.com/donkeyclip/cli/commit/93ff1d2db42c26f22ae153fe354a451faa321019))
+* **deps:** update dependency rollup to v2.58.3 ([2993646](https://www.github.com/donkeyclip/cli/commit/29936461c3ac2f87b8a95073670ce7a75e49a6f2))
+
 ### [1.0.5](https://www.github.com/donkeyclip/cli/compare/v1.0.4...v1.0.5) (2021-10-06)
 
 
