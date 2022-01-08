@@ -8,7 +8,7 @@ Donkeyclip CLI is a comandline interface which creates a new donkeyclip project 
 
 ## Good to know
 ### How to connect the local donkeyclip project with a github repo?
-In order to connect your project with a github repo you need to follow these steps:
+The created donkeyclip project is not connected to any github repository by default. In order to connect your project with a github repo you need to follow these steps:
 1. Create a new github repo
 2. Browse in the project's folder through then terminal and run these commands: 
 ```bash
