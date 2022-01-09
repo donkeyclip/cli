@@ -4,7 +4,7 @@
 Donkeyclip CLI is a command line interface that creates a new donkeyclip project and installs all the required dependencies for you. It does so by creating a clear, local clone of the **[Motorcortex Clip Starter](https://github.com/donkeyclip/motorcortex-clip-starter)** boilerplate repository.
 
 ## Usage
-- `npx donkeyclip newclip <name>` will create a new folder with the provided name. Simply run `npm run start` in your local project's folder and have fun coding with code.dokeyclip.com. 
+- `npx donkeyclip newclip <name>` will create a new folder with the provided name. Simply run `npm run start` in your local project's folder and have fun coding with [code.dokeyclip.com](https://code.donkeyclip.com). 
 
 ## Good to know
 ### How to connect the local donkeyclip project with a GitHub repo?
