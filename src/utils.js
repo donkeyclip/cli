@@ -41,11 +41,11 @@ function cloneGitRepo(command, projectName) {
     .then(function () {
       // remove git files
       if (process.platform === "win32") {
-        rimraf(`.\\${projectName}\\.git`, () => {});
-        rimraf(`.\\${projectName}\\.github`, () => {});
+        rimraf(`.\\${projectName}\\.git`);
+        rimraf(`.\\${projectName}\\.github`);
       } else {
-        rimraf(`./${projectName}/.git`, () => {});
-        rimraf(`./${projectName}/.github`, () => {});
+        rimraf(`./${projectName}/.git`);
+        rimraf(`./${projectName}/.github`);
       }
       const throbber = ora(MESSAGES.install).start();
       exec(`npm install`, { cwd: projectName }, (error, stdout, stderr) => {
