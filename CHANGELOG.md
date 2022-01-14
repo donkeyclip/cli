@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.8](https://www.github.com/donkeyclip/cli/compare/v1.0.7...v1.0.8) (2022-01-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency rollup to v2.64.0 ([d994d48](https://www.github.com/donkeyclip/cli/commit/d994d489302f9de14f10065ddc6ed43c86c2b8b0))
+
 ### [1.0.7](https://www.github.com/donkeyclip/cli/compare/v1.0.6...v1.0.7) (2022-01-14)
 
 
