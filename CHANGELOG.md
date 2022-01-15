@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.10](https://www.github.com/donkeyclip/cli/compare/v1.0.9...v1.0.10) (2022-01-15)
+
+
+### Bug Fixes
+
+* rimraf error ([0ff0223](https://www.github.com/donkeyclip/cli/commit/0ff0223377d8d7351122cc30ba24adfbfecc1326))
+
 ### [1.0.9](https://www.github.com/donkeyclip/cli/compare/v1.0.8...v1.0.9) (2022-01-15)
 
 
