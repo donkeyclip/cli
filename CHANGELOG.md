@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.9](https://www.github.com/donkeyclip/cli/compare/v1.0.8...v1.0.9) (2022-01-15)
+
+
+### Bug Fixes
+
+* add id.js to demo folder ([05f0dcf](https://www.github.com/donkeyclip/cli/commit/05f0dcf9fad344f432425508c6ba0d46554ee12f))
+
 ### [1.0.8](https://www.github.com/donkeyclip/cli/compare/v1.0.7...v1.0.8) (2022-01-14)
 
 
