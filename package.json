@@ -27,7 +27,7 @@
     "code-donkeyclip"
   ],
   "dependencies": {
-    "isomorphic-git": "1.10.4",
+    "isomorphic-git": "1.10.5",
     "ora": "5.4.1",
     "rimraf": "3.0.2",
     "rollup": "2.66.0",
