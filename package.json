@@ -61,7 +61,7 @@
     "eslint-plugin-promise": "6.0.0",
     "eslint-plugin-sonarjs": "0.11.0",
     "husky": "7.0.4",
-    "lint-staged": "12.3.3",
+    "lint-staged": "12.3.4",
     "prettier": "2.5.1"
   }
 }
