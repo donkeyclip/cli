@@ -1,5 +1,24 @@
 # Changelog
 
+### [1.0.12](https://www.github.com/donkeyclip/cli/compare/v1.0.11...v1.0.12) (2022-03-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency isomorphic-git to v1.11.2 ([d50f756](https://www.github.com/donkeyclip/cli/commit/d50f756d8a06816e2282d11d0435514d0bb5035a))
+* **deps:** update dependency isomorphic-git to v1.12.0 ([816b240](https://www.github.com/donkeyclip/cli/commit/816b240128ab86ef602663f10c21fa9d3aefa000))
+* **deps:** update dependency isomorphic-git to v1.12.1 ([337f8c3](https://www.github.com/donkeyclip/cli/commit/337f8c3dc879749e353404d72ddd1d50968500ca))
+* **deps:** update dependency isomorphic-git to v1.13.0 ([700a20a](https://www.github.com/donkeyclip/cli/commit/700a20ac0c6a775d63bbb8ad3f33212ed835f404))
+* **deps:** update dependency isomorphic-git to v1.13.1 ([416bd15](https://www.github.com/donkeyclip/cli/commit/416bd15872c33e82cbeff9404d245df399a11ae7))
+* **deps:** update dependency rollup to v2.67.0 ([5a54e18](https://www.github.com/donkeyclip/cli/commit/5a54e18e0139667c6742c4c8ba9e404b00286f37))
+* **deps:** update dependency rollup to v2.67.1 ([bf4be2e](https://www.github.com/donkeyclip/cli/commit/bf4be2eed6bd4fdf3b4db36e73e3639b95c8a8a8))
+* **deps:** update dependency rollup to v2.67.2 ([c4b16b6](https://www.github.com/donkeyclip/cli/commit/c4b16b6a0c5fbea7c1f1c51917e8eb748246dd1f))
+* **deps:** update dependency rollup to v2.67.3 ([049d8c6](https://www.github.com/donkeyclip/cli/commit/049d8c6801b0f9317e8017bbddf7cb4cfb2a9057))
+* **deps:** update dependency rollup to v2.68.0 ([e686818](https://www.github.com/donkeyclip/cli/commit/e686818a5a2940a5a23122b0d0483993e905560f))
+* **deps:** update dependency rollup to v2.69.0 ([6a0d603](https://www.github.com/donkeyclip/cli/commit/6a0d603487442575e4fbb6290fffe1aaf62f31a3))
+* **deps:** update dependency rollup to v2.69.1 ([73df735](https://www.github.com/donkeyclip/cli/commit/73df735fc29e0b1136f14b17082550e42cfaed71))
+* **deps:** update dependency rollup to v2.69.2 ([fe30df3](https://www.github.com/donkeyclip/cli/commit/fe30df3c7b97ec3df7a6361a6e701d8a508930b9))
+
 ### [1.0.11](https://www.github.com/donkeyclip/cli/compare/v1.0.10...v1.0.11) (2022-01-30)
 
 
