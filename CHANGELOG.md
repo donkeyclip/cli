@@ -1,5 +1,14 @@
 # Changelog
 
+### [1.0.13](https://www.github.com/donkeyclip/cli/compare/v1.0.12...v1.0.13) (2022-03-18)
+
+
+### Bug Fixes
+
+* **deps:** update dependency isomorphic-git to v1.14.0 ([8d1d692](https://www.github.com/donkeyclip/cli/commit/8d1d692111a5b8b70cadea7ec5387e8e831dbdc0))
+* **deps:** update dependency rollup to v2.70.0 ([0beffcf](https://www.github.com/donkeyclip/cli/commit/0beffcfebc8e37a448e045e2427904c77ecdde13))
+* **deps:** update dependency rollup to v2.70.1 ([172fadd](https://www.github.com/donkeyclip/cli/commit/172fadd93c55cab33ef7225c86951bbf4a70c5ce))
+
 ### [1.0.12](https://www.github.com/donkeyclip/cli/compare/v1.0.11...v1.0.12) (2022-03-06)
 
 
