@@ -64,7 +64,7 @@ function cloneGitRepo(command, projectName) {
 
         throbber.stop();
         const idjsContent = `export default "${uuidv4()}";`;
-        fs.writeFile(`${projectName}/demo/id.js`, idjsContent, (err) => {
+        fs.writeFile(`${projectName}/server/id.js`, idjsContent, (err) => {
           if (err) return console.error(err);
           console.log(MESSAGES.finish(projectName));
         });
