@@ -24,7 +24,7 @@ program
     "Create a new donkeyclip project using the motorcortex-clip-starter repo"
   )
   .argument("<project-name>", "The name of your project")
-  .option("--ts", "use typescript for your project")
+  .option("--js", "use javascript for your project")
   .action((projectName, options) => {
     utils
       .cloneGitRepo("create-clip", projectName, options)
