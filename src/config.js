@@ -2,8 +2,7 @@ const USAGE = `
 Usage: donkeyclip <command> <project-name>
 
 Available commands:
- - newplugin
- - newclip`;
+ - create-clip`;
 
 const MESSAGES = {
   clone: "Cloning starter repo",
@@ -12,11 +11,12 @@ const MESSAGES = {
     `Your project workspace is ready on folder "${projectName}". Be creative and have fun!`,
   folderExists: (projectName) => `Folder "${projectName}" already exists`,
   unexpectedError: "Unexpected error!",
+  javascript: "No TypeScript? Working on creating JS files...",
+  id: "Adding a unique id to your project...",
 };
 
 const STARTER_REPO = {
-  newplugin: "https://github.com/donkeyclip/motorcortex-plugin-starter",
-  newclip: "https://github.com/donkeyclip/motorcortex-clip-starter",
+  "create-clip": "https://github.com/donkeyclip/motorcortex-clip-starter",
 };
 
 module.exports = {
