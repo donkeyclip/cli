@@ -1,5 +1,38 @@
 # Changelog
 
+## [1.0.15](https://github.com/donkeyclip/cli/compare/v1.0.14...v1.0.15) (2023-01-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency isomorphic-git to v1.17.3 ([a319a18](https://github.com/donkeyclip/cli/commit/a319a18a5d3dbf2e4e32058b8ee08d167999c091))
+* **deps:** update dependency isomorphic-git to v1.18.0 ([c5079fb](https://github.com/donkeyclip/cli/commit/c5079fb48640f59556161b13ac88cb0bb3c2dfa6))
+* **deps:** update dependency isomorphic-git to v1.18.1 ([2f4562a](https://github.com/donkeyclip/cli/commit/2f4562a5042342ff700b8c59363fabba7d4b5ec6))
+* **deps:** update dependency isomorphic-git to v1.18.2 ([1c91574](https://github.com/donkeyclip/cli/commit/1c91574dfa3f486f67e84ed14fce42072f78ce4d))
+* **deps:** update dependency isomorphic-git to v1.18.3 ([a7810bf](https://github.com/donkeyclip/cli/commit/a7810bfe8915b8d7737e03d164eaf298dda6feca))
+* **deps:** update dependency isomorphic-git to v1.19.0 ([30f06af](https://github.com/donkeyclip/cli/commit/30f06afb39014cd72cb26ba9694ff5ead298408d))
+* **deps:** update dependency isomorphic-git to v1.19.1 ([89c627d](https://github.com/donkeyclip/cli/commit/89c627dad52c02c0854e3342d15376a109b4686d))
+* **deps:** update dependency isomorphic-git to v1.19.2 ([ce694e9](https://github.com/donkeyclip/cli/commit/ce694e9c941535e016ce19d0919594589860f5ab))
+* **deps:** update dependency isomorphic-git to v1.19.3 ([60bc173](https://github.com/donkeyclip/cli/commit/60bc173da276aa8154c8d9415fba04a38e3714b9))
+* **deps:** update dependency isomorphic-git to v1.20.0 ([10a3d42](https://github.com/donkeyclip/cli/commit/10a3d42130bb4bb3aeefe7499da5ca04af608d1b))
+* **deps:** update dependency isomorphic-git to v1.21.0 ([76a7fa2](https://github.com/donkeyclip/cli/commit/76a7fa2b063528fbcc60dd90f51efa6015d72cda))
+* **deps:** update dependency rollup to v2.75.4 ([d3c8514](https://github.com/donkeyclip/cli/commit/d3c8514293b84caaaed0bab2c9d61921aac11b09))
+* **deps:** update dependency rollup to v2.75.5 ([cb3bc76](https://github.com/donkeyclip/cli/commit/cb3bc7609615184b40bc495feb21396bbe22d6d4))
+* **deps:** update dependency rollup to v2.75.6 ([8a25611](https://github.com/donkeyclip/cli/commit/8a256110acd64798555f0c3e13fce46cf0504033))
+* **deps:** update dependency rollup to v2.75.7 ([8406e27](https://github.com/donkeyclip/cli/commit/8406e271a4ad077c05c6c2811fac2811f39ad5c9))
+* **deps:** update dependency rollup to v2.76.0 ([de687ff](https://github.com/donkeyclip/cli/commit/de687ffa7973e6f3cf2fef3a9c847c4aad330c11))
+* **deps:** update dependency rollup to v2.77.0 ([8308daa](https://github.com/donkeyclip/cli/commit/8308daa4c49d61acbd426844106c6003a27c8bf8))
+* **deps:** update dependency rollup to v2.77.1 ([afdef24](https://github.com/donkeyclip/cli/commit/afdef244a22ea8a59a59c620f7819572294f2ca1))
+* **deps:** update dependency rollup to v2.77.2 ([40d77e5](https://github.com/donkeyclip/cli/commit/40d77e5d4513c4b198c48e22e940e8a1c2396fd9))
+* **deps:** update dependency rollup to v2.77.3 ([ea0c073](https://github.com/donkeyclip/cli/commit/ea0c0739d4a1ca8762253db2c1df410f1c3a292d))
+* **deps:** update dependency rollup to v2.78.0 ([0507bf9](https://github.com/donkeyclip/cli/commit/0507bf98acd00e2892e4bb7c48fc2bb9dee95d2d))
+* **deps:** update dependency rollup to v2.78.1 ([6a0186a](https://github.com/donkeyclip/cli/commit/6a0186a4b9141c4272542de6eea4ddb2c48270d3))
+* **deps:** update dependency rollup to v2.79.0 ([0cf9306](https://github.com/donkeyclip/cli/commit/0cf9306562e7646f5293818385e62d7766a8768e))
+* **deps:** update dependency rollup to v2.79.1 ([33f7590](https://github.com/donkeyclip/cli/commit/33f75901a68a050827554660ff0dc2fbb5ec5ad8))
+* **deps:** update dependency yargs to v17.6.0 ([69fd9bb](https://github.com/donkeyclip/cli/commit/69fd9bb1b12a9c7ac0fcb36308f8b64ed01f95e1))
+* **deps:** update dependency yargs to v17.6.1 ([6c3f162](https://github.com/donkeyclip/cli/commit/6c3f1620437c18a8333dba1b3a2394cc619fcfac))
+* **deps:** update dependency yargs to v17.6.2 ([2b659d0](https://github.com/donkeyclip/cli/commit/2b659d0c9db0729a6ca5f67af5a941e0cbbd8106))
+
 ### [1.0.14](https://github.com/donkeyclip/cli/compare/v1.0.13...v1.0.14) (2022-05-31)
 
 
