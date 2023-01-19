@@ -60,7 +60,7 @@ async function cloneGitRepo(commandName, projectName, options) {
     throbber.stop();
 
     //ADD JS FILES IF NOT TS
-    if (!options.ts) {
+    if (options.js) {
       throbber = ora(MESSAGES.javascript).start();
 
       const clipDest = path.join("./", projectName, "clip");
