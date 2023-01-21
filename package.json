@@ -14,7 +14,7 @@
   "scripts": {
     "build": "",
     "build:lib": "",
-    "test": "npm i && npm run donkeyclip -- newclip test",
+    "test": "npm i && npm run donkeyclip -- create-clip test",
     "donkeyclip": "node ./src/index.js",
     "prepare": "husky install"
   },

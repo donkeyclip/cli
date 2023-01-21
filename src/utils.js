@@ -6,7 +6,6 @@ const util = require("util");
 const exec = util.promisify(require("child_process").exec);
 const rimraf = util.promisify(require("rimraf"));
 const copyfiles = util.promisify(require("copyfiles"));
-// const copyfiles = require("copyfiles");
 
 const ora = require("ora");
 const { v4: uuidv4 } = require("uuid");
@@ -14,11 +13,6 @@ const http = require("isomorphic-git/http/node");
 const path = require("path");
 
 async function cloneGitRepo(commandName, projectName, options) {
-  // const clipDest = path.join("./", projectName, "clip");
-  // const clipFrom = path.join("./", projectName, "dist", "clip", "**", "*");
-  // await copyfiles([clipFrom, clipDest], { up: 3 });
-
-  // return;
   let throbber = ora("Initializing...").start();
   try {
     const execOpts = {
@@ -45,8 +39,8 @@ async function cloneGitRepo(commandName, projectName, options) {
 
     //CLEAN GITHUB FOLDERS
     throbber = ora("Cleaning things up..").start();
-    const gitFile = path.join("./", projectName, ".git");
-    const githubFile = path.join("./", projectName, ".github");
+    const gitFile = path.join(projectName, ".git");
+    const githubFile = path.join(projectName, ".github");
 
     await rimraf(gitFile);
     await rimraf(githubFile);
@@ -63,26 +57,19 @@ async function cloneGitRepo(commandName, projectName, options) {
     if (options.js) {
       throbber = ora(MESSAGES.javascript).start();
 
-      const clipDest = path.join("./", projectName, "clip");
-      const clipFrom = path.join("./", projectName, "dist", "clip", "**", "*");
+      const clipDest = path.join(projectName, "clip");
+      const clipFrom = path.join(projectName, "dist", "clip", "**", "*");
       await copyfiles([clipFrom, clipDest], { up: 3 });
 
-      const serverDest = path.join("./", projectName, "server");
-      const serverFrom = path.join(
-        "./",
-        projectName,
-        "dist",
-        "server",
-        "**",
-        "*"
-      );
+      const serverDest = path.join(projectName, "server");
+      const serverFrom = path.join(projectName, "dist", "server", "**", "*");
       await copyfiles([serverFrom, serverDest], { up: 3 });
 
-      const distPath = path.join("./", projectName, "dist");
-      const tsconfig = path.join("./", projectName, "tsconfig.json");
+      const distPath = path.join(projectName, "dist");
+      const tsconfig = path.join(projectName, "tsconfig.json");
       await rimraf(distPath);
       await rimraf(tsconfig);
-      await rimraf("./**/*.ts");
+      await rimraf(path.join("**", "*.ts"));
       await exec("npm run lint:fix", execOpts);
       throbber.stop();
     }
