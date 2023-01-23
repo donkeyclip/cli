@@ -1,6 +1,6 @@
 {
-  "name": "donkeyclip",
-  "version": "1.0.14",
+  "name": "create-donkeyclip",
+  "version": "1.0.0",
   "description": "Command Line tools for MotorCortex",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
   "scripts": {
     "build": "",
     "build:lib": "",
-    "test": "npm i && npm run donkeyclip -- newclip test",
+    "test": "npm i && npm run donkeyclip -- create-clip test",
     "donkeyclip": "node ./src/index.js",
     "prepare": "husky install"
   },
@@ -27,6 +27,8 @@
     "code-donkeyclip"
   ],
   "dependencies": {
+    "commander": "^10.0.0",
+    "copyfiles": "^2.4.1",
     "isomorphic-git": "1.21.0",
     "ora": "5.4.1",
     "rimraf": "3.0.2",
