@@ -7,6 +7,7 @@ Donkeyclip CLI is a command line interface that creates a new donkeyclip project
 ## Usage
 
 - `npm create donkeyclip <name>` will create a new folder with the provided name. Using the `--js` option you can create a clip template that uses JavaScript as base, otherwise TypeScript will be used by default. Simply run `npm run start` in your local project's folder and have fun coding with [code.dokeyclip.com](https://code.donkeyclip.com).
+- if you want to use `npx` instead you should use `npx create-donkeyclip <name>`
 
 ## Good to know
 
