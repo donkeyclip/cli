@@ -1,22 +1,18 @@
 #!/usr/bin/env node
 // #!/usr/bin/env node
 const utils = require("./utils.js");
-
-const { Command } = require("commander");
-const program = new Command();
-
+const { program } = require("commander");
+const { version } = require("../package.json");
 program
-  .name("donkeyclip-cli")
-  .description("CLI tool to create to make your life easier with DonkeyClip")
-  .version("1.0.0");
-
-program
-  .command("create-clip")
+  .version(version)
   .description(
     "Create a new donkeyclip project using the motorcortex-clip-starter repo"
   )
   .argument("<project-name>", "The name of your project")
-  .option("--js", "use javascript for your project")
+  .option(
+    "--js",
+    "use JavaScript as base for your project, the default is TypeScript"
+  )
   .action((projectName, options) => {
     utils
       .cloneGitRepo("create-clip", projectName, options)
@@ -25,5 +21,7 @@ program
       })
       .catch(console.error);
   });
-
+if (process.argv.length < 3) {
+  program.help();
+}
 program.parse();
