@@ -1,6 +1,6 @@
 {
-  "name": "donkeyclip",
-  "version": "1.0.14",
+  "name": "create-donkeyclip",
+  "version": "1.0.0",
   "description": "Command Line tools for MotorCortex",
   "repository": {
     "type": "git",
