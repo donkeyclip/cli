@@ -1,5 +1,15 @@
 # Changelog
 
+## [1.0.16](https://github.com/donkeyclip/cli/compare/v1.0.15...v1.0.16) (2023-03-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency isomorphic-git to v1.22.0 ([695d21a](https://github.com/donkeyclip/cli/commit/695d21a0a5cabc6068e4335a53d30f4b515de349))
+* **deps:** update dependency isomorphic-git to v1.23.0 ([9ae64cf](https://github.com/donkeyclip/cli/commit/9ae64cfbb6bb5024897a28c510f52fbbd977c1f1))
+* **deps:** update dependency yargs to v17.7.0 ([75ec635](https://github.com/donkeyclip/cli/commit/75ec6355b5ee989abc2ccc8d1e7acf494c810af4))
+* **deps:** update dependency yargs to v17.7.1 ([5f61f3e](https://github.com/donkeyclip/cli/commit/5f61f3e9f4e7c0777bafb2a0415bb5e840cc7bf5))
+
 ## [1.0.15](https://github.com/donkeyclip/cli/compare/v1.0.14...v1.0.15) (2023-01-23)
 
 ### Bug Fixes
