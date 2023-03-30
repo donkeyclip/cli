@@ -1,6 +1,6 @@
 {
   "name": "create-donkeyclip",
-  "version": "1.0.0",
+  "version": "1.0.15",
   "description": "Command Line tools for MotorCortex",
   "repository": {
     "type": "git",
@@ -29,13 +29,13 @@
   "dependencies": {
     "commander": "^10.0.0",
     "copyfiles": "^2.4.1",
-    "isomorphic-git": "1.21.0",
+    "isomorphic-git": "1.23.0",
     "ora": "5.4.1",
     "rimraf": "3.0.2",
     "rollup": "2.79.1",
     "rollup-plugin-terser": "7.0.2",
     "uuid": "8.3.2",
-    "yargs": "17.6.2"
+    "yargs": "17.7.1"
   },
   "lint-staged": {
     "*.{js,ts,jsx,tsx}": [
@@ -47,23 +47,23 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "7.20.12",
-    "@babel/eslint-parser": "7.19.1",
+    "@babel/core": "7.21.3",
+    "@babel/eslint-parser": "7.21.3",
     "@rollup/plugin-babel": "6.0.3",
     "@rollup/plugin-commonjs": "23.0.7",
     "@rollup/plugin-json": "5.0.2",
     "@rollup/plugin-node-resolve": "15.0.1",
-    "@typescript-eslint/eslint-plugin": "5.48.2",
-    "@typescript-eslint/parser": "5.48.2",
-    "eslint": "8.32.0",
-    "eslint-config-prettier": "8.6.0",
+    "@typescript-eslint/eslint-plugin": "5.57.0",
+    "@typescript-eslint/parser": "5.57.0",
+    "eslint": "8.37.0",
+    "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-node": "11.1.0",
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-promise": "6.1.1",
-    "eslint-plugin-sonarjs": "0.18.0",
+    "eslint-plugin-sonarjs": "0.19.0",
     "husky": "8.0.3",
-    "lint-staged": "13.1.0",
-    "prettier": "2.8.3"
+    "lint-staged": "13.2.0",
+    "prettier": "2.8.7"
   }
 }
