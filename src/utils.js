@@ -49,7 +49,7 @@ async function cloneGitRepo(commandName, projectName, options) {
     //INSTALL DEPENDECIES
     throbber = ora(MESSAGES.install).start();
     let command = "npm i";
-    if (!options.tsc) command = `npm i && npx tsc`;
+    if (options.js) command = `npm i && npx tsc`;
     await exec(command, execOpts);
     throbber.stop();
 
